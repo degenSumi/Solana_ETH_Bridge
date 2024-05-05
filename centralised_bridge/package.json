@@ -1,0 +1,20 @@
+{
+  "name": "sol_bridge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "centralised_bridge.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dgenSumi",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.91.8",
+    "axios": "^1.6.7",
+    "base58": "^2.0.1",
+    "bs58": "^5.0.0",
+    "ethers": "5.7",
+    "keccak256": "^1.0.6",
+    "web3": "1.7.5"
+  }
+}
