@@ -8,7 +8,7 @@ const web3Provider = 'wss://sepolia.drpc.org';
 const web3 = new Web3(web3Provider);
 
 // Initialize Solana connection
-const solanaEndpoint = 'https://young-methodical-asphalt.solana-devnet.quiknode.pro/8d330f62fc6e0ed8c86ec8cb89b0b2f869cdac10/';
+const solanaEndpoint = 'https://white-spring-spring.solana-devnet.quiknode.pro/5e71175caa83cbf42670c2bb41e8eb6ff4799cde/';
 const solanaConnection = new Connection(solanaEndpoint, 'confirmed');
 
 const solanaAccount = Keypair.fromSecretKey(bs58.decode('2aGPJMDkJ4tpM463rbnNMWpwziQnJ68jf4e3LzESpBg64DPDRANx2WupBmdXQZa1qjczNtddyinhmpiQUGkeSMfD'));
