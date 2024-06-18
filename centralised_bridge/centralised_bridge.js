@@ -8,7 +8,7 @@ const web3Provider = 'wss://sepolia.drpc.org';
 const web3 = new Web3(web3Provider);
 
 // Initialize Solana connection
-const solanaEndpoint = 'https://white-spring-spring.solana-devnet.quiknode.pro/5e71175caa83cbf42670c2bb41e8eb6ff4799cde/';
+const solanaEndpoint = 'SOL_RPC';
 const solanaConnection = new Connection(solanaEndpoint, 'confirmed');
 
 const solanaAccount = Keypair.fromSecretKey(bs58.decode('<PRIVATE_KEY>'));
