@@ -11,7 +11,7 @@ const web3 = new Web3(web3Provider);
 const solanaEndpoint = 'https://white-spring-spring.solana-devnet.quiknode.pro/5e71175caa83cbf42670c2bb41e8eb6ff4799cde/';
 const solanaConnection = new Connection(solanaEndpoint, 'confirmed');
 
-const solanaAccount = Keypair.fromSecretKey(bs58.decode('2aGPJMDkJ4tpM463rbnNMWpwziQnJ68jf4e3LzESpBg64DPDRANx2WupBmdXQZa1qjczNtddyinhmpiQUGkeSMfD'));
+const solanaAccount = Keypair.fromSecretKey(bs58.decode('<PRIVATE_KEY>'));
 // console.log(solanaAccount.publicKey);
 
 // Ethereum contract address and ABI
