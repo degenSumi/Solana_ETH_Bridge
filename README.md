@@ -1,7 +1,7 @@
 Hey there,
 
 A simple and intutive bridge with lock and release mechanism for Ethereum<>Solana.
-Beatus
+
 
 Both the contracts are already deployed on the below mentioned networks, Source code of both the contracts is provided and can be deployed with relevant dev tooling on ETH and SOL.
 (remix and solana playground can be used to get started quickly)
