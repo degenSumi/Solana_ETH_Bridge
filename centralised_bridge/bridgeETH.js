@@ -5,7 +5,7 @@ const web3Provider = 'https://sepolia.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456
 const web3 = new Web3(web3Provider);
 
 // Ethereum account private key
-const ethereumPrivateKey = 'e82a9cee871362dd35549928c6255c680c7d3be943217109926b9065d44fa515';
+const ethereumPrivateKey = 'ETH_PRIVATE_KEY';
 
 // Ethereum contract address and ABI
 const ethereumContractAddress = '0xb2e1ac8db6f1f530592c75e0549765be692a6adc';
