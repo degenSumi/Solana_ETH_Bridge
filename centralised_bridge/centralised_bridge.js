@@ -84,7 +84,7 @@ async function releaseTokensToSolana(sender, amount, targetAddress) {
         );
         console.log(`https://explorer.solana.com/tx/${transactionSignature}?cluster=devnet`);
         // Log transaction details
-        console.log(`Tokens released to ${targetAddress} on Solana. Amount: ${amount} SOL`);
+        console.log(`Tokens released to ${targetAddress} on Solana. Amount: ${amount} Lamports`);
     } catch (error) {
         console.error('Error releasing tokens to Solana:', error);
     }
