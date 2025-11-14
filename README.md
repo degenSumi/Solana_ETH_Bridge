@@ -5,7 +5,6 @@ A simple and intutive bridge with lock and release mechanism for Ethereum<>Solan
 
 Both the contracts are already deployed on the below mentioned networks, Source code of both the contracts is provided and can be deployed with relevant dev tooling on ETH and SOL.
 (remix and solana playground can be used to get started quickly)
-* beats long bridging time of wormhole ~30 mins to instant finality
 
 Sepolia Deployment: 
 https://sepolia.etherscan.io/address/0xb2e1ac8db6f1f530592c75e0549765be692a6adc
